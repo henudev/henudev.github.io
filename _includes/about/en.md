@@ -1,1 +1,1 @@
-Hello，Nice to meet you.
+Hello
