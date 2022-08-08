@@ -13,3 +13,4 @@ node_modules
 */*/.DS_Store
 .jekyll-cache.Gemfile.lock.swp
 .jekyll-cache
+*.swp
