@@ -1,4 +1,13 @@
 <!-- Footer -->
+{% raw %}<script>
+var _hmt = _hmt || [];
+(function() {
+   var hm = document.createElement("script");
+   hm.src = "https://hm.baidu.com/hm.js?{{site.baidu_tmid}}";
+   var s = document.getElementsByTagName("script")[0]; 
+   s.parentNode.insertBefore(hm, s);
+})();
+</script>{% endraw %}
 <footer>
     <div class="container">
         <div class="row">
@@ -19,15 +28,7 @@
         </div>
     </div>
 </footer>
-{% raw %}<script>
-var _hmt = _hmt || [];
-(function() {
-   var hm = document.createElement("script");
-   hm.src = "https://hm.baidu.com/hm.js?{{site.baidu_tmid}}";
-   var s = document.getElementsByTagName("script")[0]; 
-   s.parentNode.insertBefore(hm, s);
-})();
-</script>{% endraw %}
+
 <!-- jQuery -->
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
 
