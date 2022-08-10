@@ -1,7 +1,7 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "秦小山",
+  "short_name": "秦小山的博客",
+  "description": "NTH",
   "icons": [{
     "src": "icons/128.png",
     "sizes": "128x128",
