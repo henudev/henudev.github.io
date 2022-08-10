@@ -180,6 +180,8 @@ public class SecurityContextPersistenceFilter extends GenericFilterBean {
 
 ### filter链制行顺序
 
+![执行顺序](https://github.com/henudev/henudev.github.io/blob/master/_posts/SpringSecurity.assets/image-20220422101832422.png?raw=true)
+
 ![image-20220422101832422](.\SpringSecurity.assets\image-20220422101832422.png)
 
 ## 疑惑解答
