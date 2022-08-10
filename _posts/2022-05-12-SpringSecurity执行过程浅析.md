@@ -178,11 +178,9 @@ public class SecurityContextPersistenceFilter extends GenericFilterBean {
 1. 首先从请求头中提取出 authorization 字段，这个字段对应的 value 就是用户的 token。
 2. 将提取出来的 token 字符串转换为一个 Claims 对象，再从 Claims 对象中提取出当前用户名和用户角色，创建一个 UsernamePasswordAuthenticationToken 放到当前的 Context 中，然后执行过滤链使请求继续执行下去。
 
-### filter链制行顺序
+### filter链执行顺序
 
 ![执行顺序](https://github.com/henudev/henudev.github.io/blob/master/_posts/SpringSecurity.assets/image-20220422101832422.png?raw=true)
-
-![image-20220422101832422](.\SpringSecurity.assets\image-20220422101832422.png)
 
 ## 疑惑解答
 
