@@ -3,7 +3,8 @@ layout: post                          # 表明是博文
 title: "Spring Security执行过程浅析"           # 博文的标题  
 date: 2022-05-12                 # 博文的发表日期，此日期决定主页上博文的先后顺序  
 author: "秦"                       # 博文的作者  
-catalog: True                         # 开启catalog，将在博文侧边展示博文的结构  
+catalog: True                         # 开启catalog，将在博文侧边展示博文的结构 
+tags: Spring
 ---  
 # Spring Security执行过程浅析
 
