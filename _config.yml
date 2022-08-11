@@ -103,9 +103,9 @@ page-mathjax: false
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
+         title: "MVP bang",
+         href: "https://mvpbang.com/"
+     },{
         title: "秦一居",
         href: "https://www.cnblogs.com/henuqin/"
     },{
