@@ -102,6 +102,10 @@ page-mathjax: false
 
 # Friends
 friends: [
+      {
+         title: "中华诗词",
+         href: "https://www.shi-ci.com/"
+     },
     {
          title: "MVP bang",
          href: "https://mvpbang.com/"
